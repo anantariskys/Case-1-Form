@@ -37,45 +37,11 @@
  
 
 
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div data-mdb-input-init class="form-outline mb-4">
-              <input type="email" id="form5Example24" class="form-control" />
-              <label class="form-label" for="form5Example24">Email address</label>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
-              Subscribe
-            </button>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
+    
 
     <!-- Section: Text -->
     <section class="mb-4">
-      <p>
+      <p >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
         repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
         harum corrupti dicta, aliquam sequi voluptate quas.
@@ -179,8 +145,8 @@
 
  
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2020 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Kelompok 3</a>
   </div>
  
 </footer>

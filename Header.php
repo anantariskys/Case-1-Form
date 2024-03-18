@@ -36,12 +36,12 @@
   <div
     class="p-5 text-center bg-image"
     style="
-      background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+      background-image: url('https://source.unsplash.com/random/900×700/?programming');
       height: 400px;
     "
   >
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-      <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="d-flex justify-content-center p-3 align-items-center h-100">
         <div class="text-white">
           <h1 class="mb-3">Heading</h1>
           <h4 class="mb-3">Subheading</h4>
