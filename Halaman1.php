@@ -116,15 +116,14 @@
                                                     <option value="Fakultas Pertanian">Fakultas Pertanian
                                                     </option>
                                                     <option value="Fakultas Peternakan">Fakultas Peternakan
-                                                    
+
                                                     </option>
                                                     <option value="Fakultas Teknik">Fakultas Teknik</option>
                                                     <option value="Fakultas Kedokteran">Fakultas Kedokteran
                                                     </option>
                                                     <option value="Fakultas Perikanan dan Ilmu Kelautan">Fakultas
                                                         Perikanan dan Ilmu Kelautan</option>
-                                                    <option
-                                                        value="Fakultas Matematika dan Ilmu Pengetahuan Alam">
+                                                    <option value="Fakultas Matematika dan Ilmu Pengetahuan Alam">
                                                         Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
                                                     <option value="Fakultas Teknologi Pertanian">Fakultas
                                                         Teknologi
@@ -133,7 +132,7 @@
                                                         Fakultas
                                                         Ilmu Sosial dan Ilmu Politik</option>
                                                     <option value="Fakultas Ilmu Budaya">Fakultas Ilmu Budaya
-                                                    
+
                                                     </option>
                                                     <option value="Fakultas Kedokteran Hewan">Fakultas Kedokteran
                                                         Hewan</option>
@@ -166,17 +165,13 @@
 
 
                                     <div class="form-outline mb-2">
-                                        <label for="exampleFormControlFile1" class="form-label">Foto</label>
-                                        <div>
-                                            <input type="file" class="form-control-file" name="foto"
-                                                id="exampleFormControlFile1">
-                                        </div>
-
+                                        <label for="form3Example1n1">Foto</label>
+                                        <input type="file" class="form-control-file" name="foto" id="form3Example1n1">
                                     </div>
 
 
                                     <div class="d-flex justify-content-end pt-3">
-                                    
+
                                         <button type="submit" class="btn btn-warning btn-lg ms-2">Daftar</button>
                                     </div>
 

@@ -1,3 +1,19 @@
+<?php
+if ($_FILES['foto']['error'] == UPLOAD_ERR_OK) {
+    $uploadDir = getcwd() . "/";
+    $uploadFile = $uploadDir.basename($_FILES['foto']['name']);
+    if (move_uploaded_file($_FILES['foto']['tmp_name'], $uploadFile)) {
+      
+        $gambarSrc = basename($_FILES['foto']['name']);
+    } else {
+       
+        $gambarSrc = "default.jpg"; 
+    }
+} else {
+   
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,16 +38,12 @@
             <div class="col-lg-4">
                 <div class="card mb-4">
                     <div class="card-body text-center">
-                        <?php
-                        if ($_FILES['foto']) {
-                            $tempFile = $_FILES['foto']['tmp_name'];
-                            echo '<img src="' . $tempFile . '" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">';
-                        } else {
-                            echo 'File upload error: ' . $_FILES['foto']['error'];
-                        }
-                        ?>
+                      
+                        <img src=" <?php echo $gambarSrc?>" 
+              class="rounded-circle img-fluid" style="width: 150px;">
                         <h5 class="my-3">
                             <?php echo $_POST['namaPanggilan'] ?>
+                           
                         </h5>
                         <p class="text-muted mb-1">Full Stack Developer</p>
                         <p class="text-muted mb-4">Bay Area, San Francisco, CA</p>
