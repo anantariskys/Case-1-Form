@@ -45,12 +45,6 @@ if ($_FILES['foto']['error'] == UPLOAD_ERR_OK) {
                             <?php echo $_POST['namaPanggilan'] ?>
                            
                         </h5>
-                        <p class="text-muted mb-1">Full Stack Developer</p>
-                        <p class="text-muted mb-4">Bay Area, San Francisco, CA</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <button type="button" class="btn btn-primary">Follow</button>
-                            <button type="button" class="btn btn-outline-primary ms-1">Message</button>
-                        </div>
                     </div>
                 </div>
             </div>
