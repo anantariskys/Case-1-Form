@@ -101,9 +101,6 @@
                                             <div class="form-outline">
                                                 <label class="form-label" for="form3Example1n1">Fakultas</label>
 
-
-
-
                                                 <select class="select" name="fakultas" id="fakultas">
                                                     <option selected disabled>Pilih Fakultas Mu</option>
                                                     <option value="Fakultas Hukum">Fakultas Hukum Ilmu
